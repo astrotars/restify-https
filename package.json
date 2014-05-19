@@ -1,0 +1,23 @@
+{
+  "name": "restify-https",
+  "version": "0.0.1",
+  "description": "A simple Restify plugin that requires requests to be made via HTTPS only.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nparsons08/restify-https.git"
+  },
+  "keywords": [
+    "restify",
+    "https"
+  ],
+  "author": "Nick Parsons <nparsons08@gmail.com> (https://github.com/nparsons08)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nparsons08/restify-https/issues"
+  },
+  "homepage": "https://github.com/nparsons08/restify-https"
+}
