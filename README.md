@@ -6,7 +6,7 @@ A simple Restify plugin that requires requests to be made via HTTPS only.
 Example:
 
 ```
-var server = require('restiry'),
+var server = require('restify'),
     https = require('restify-https');
 
 server.use(https({ override: false }));
