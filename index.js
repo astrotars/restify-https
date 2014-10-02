@@ -8,7 +8,7 @@ module.exports = function (opts) {
 
     var https = function(req, res, next) {
 
-        if (process.ENV.NODE_ENV == 'DEV' || opts.override) {
+        if (process.env.NODE_ENV == 'DEV' || opts.override) {
             return next();
         }
 
